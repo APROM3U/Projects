@@ -16,20 +16,16 @@
     <section>
         <div>
             Número (entre 1 e 100):
-            <input type="number" name="fnum" id="fnum">
+            <input type="number" name="fnum" id="fnum" min="1" max="100">
             <br>
             <br>
             <button name="adicionar" value="adicionar" onclick="adicionar()">Adicionar</button>
-        </div>
-        <div>
-            <select name="flista" id="flista" size="6"></select>
             <br>
+            <select name="lista" id="lista" size="6"></select>
             <br>
-            <button>Resultado</button>
-            <br>
+            <button onclick="finalizar()">Resultado</button>
         </div>
         <div id="res">
-
         </div>
     </section>
     <br>
