@@ -1,0 +1,7 @@
+Seletor	Formato	Descrição - css
+Universal	    *	    Qualquer elemento.
+Tipo elemento	<e>	    Seleciona qualquer elemento do tipo <e>.
+Classe	        .	    Seleciona os elementos que contêm a classe.
+ID	            #	    Seleciona o elemento identificado com o ID.
+Link	        a	    Seleciona a pseudo-class link.
+Hover	        :hover	É aplicada quando posicionamos o mouse sobre o elemento.
