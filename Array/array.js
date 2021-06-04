@@ -21,7 +21,7 @@ function inLista(n, l) {
 
 function adicionar() {
 
-    if (isNumero(num.value) && !inLista(num.value)) {
+    if (isNumero(num.value) && !inLista(num.value, valor)) {
        
         valor.push(Number(num.value));
         let item = document.createElement('option');
@@ -39,6 +39,7 @@ function adicionar() {
 }
 
 function finalizar() {
+
     if (valor.length == 0) {
         alert('Adicione valores...')
     } else {
