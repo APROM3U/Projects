@@ -19,24 +19,25 @@ section {
 
 div {
     text-align: center;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 footer {
     color: rgb(255, 255, 255);
     text-align: center;
     font-style: italic;
-    font: arial 3px;
+    font: arial 0.1875rem;
 }
 
 button {
     background: rgb(62, 62, 218);
-    font: normal 20pt Arial;
+    font: normal 16pt Arial;
     color: white;
-    width: 130px;
-    height: 30px;
-    border-radius: 10px;
+    width: 6.875rem;
+    height: 1.875rem;
+    border-radius: 0.625rem;
     border: none;
+    cursor: pointer;
 }
 
 select#lista{

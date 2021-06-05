@@ -45,7 +45,7 @@ function finalizar() {
     } else {
         let total = valor.length;
         let maior = [0];
-        let menor = [0];
+        let menor = 0;
         let soma = 0;
         let media = 0;
 
@@ -55,7 +55,7 @@ function finalizar() {
 
             if (valor[pos] > maior)
                 maior = valor[pos];
-            if (valor[pos] < menor)
+            if (valor[pos] < maior)
                 menor = valor[pos];
         }
 
